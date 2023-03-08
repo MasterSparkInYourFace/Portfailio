@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "FiraCode";
+  src: url(./fonts/FiraCode-VF.woff2) format(woff2) tech(variations), url(./fonts/FiraCode-VF.woff) format(woff) tech(variations);
+  font-weight: 300 700;
+  font-style: normal;
+}
+@keyframes StripeAnimation {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 60px;
+  }
+}
+body {
+  background-color: #1b1b1c;
+  color: #7f7f84;
+  font-family: "FiraCode";
+}
+
+a {
+  color: #ffe400;
+}
+
+a:hover {
+  color: white;
+}
+
+.link-button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  padding: 10px;
+  margin: 0 10px 10px 10px;
+  background-color: #4d4d50;
+}
+
+sub {
+  color: #4d4d50;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+#content {
+  padding: 10px;
+}
+
+#intro {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+#divider {
+  height: 10px;
+  width: 100%;
+  background-image: repeating-linear-gradient(-45deg, #ffe400 0 20px, transparent 20px 40px);
+  background-size: 60px auto;
+  animation: StripeAnimation 2s linear infinite;
+}
+
+#substance {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#pronouns {
+  color: #4d4d50;
+}
+
+#gif-container {
+  padding-top: 10px;
+}
+
+#gif-container > a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
